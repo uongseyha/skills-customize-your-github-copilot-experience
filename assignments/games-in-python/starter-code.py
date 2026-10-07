@@ -1,23 +1,41 @@
-# Starter Code for Hangman Game Assignment
+"""Starter code for the Hangman Game Challenge."""
 
 import random
 
-# List of possible words
-words = ['python', 'hangman', 'challenge', 'programming', 'computer']
+WORDS = ["python", "hangman", "challenge", "programming", "computer"]
+MAX_INCORRECT_GUESSES = 6
 
-# TODO: Randomly select a word from the list
-# secret_word = ...
 
-# TODO: Initialize variables for game state
-# guessed_letters = ...
-# incorrect_guesses = ...
-# max_incorrect = ...
+# Task 1: Choose a word
+def choose_secret_word():
+	"""Return a randomly selected word from WORDS."""
+	# TODO: Use random.choice to select and return a word.
+	pass
 
-# TODO: Main game loop
-# while ...:
-#     # Display current progress
-#     # Get user input
-#     # Check guess and update state
-#     # Display result or end game
 
-# TODO: Print win/lose message
+# Task 2: Show the player's progress
+def display_progress(secret_word, guessed_letters):
+	"""Return the word with unguessed letters shown as underscores."""
+	# TODO: Build and return a string such as "_ a _ g m a n".
+	pass
+
+
+# Task 3: Play a round of Hangman
+def play_game():
+	"""Run the game until the player wins or runs out of guesses."""
+	secret_word = choose_secret_word()
+	guessed_letters = set()
+	incorrect_guesses = 0
+
+	# TODO: Loop while the word is not fully guessed and guesses remain.
+	# Inside the loop:
+	# - Display the current progress and remaining incorrect guesses.
+	# - Ask the player to enter a letter.
+	# - Add the guess to guessed_letters and update incorrect_guesses.
+	pass
+
+	# TODO: Display whether the player won or reveal the secret word.
+
+
+if __name__ == "__main__":
+	play_game()
