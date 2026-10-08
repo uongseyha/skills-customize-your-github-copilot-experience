@@ -58,6 +58,13 @@
           "type": "csv"
         }
       ]
+    },
+    {
+      "id": "fastapi-rest-apis",
+      "title": "Building REST APIs with FastAPI",
+      "description": "Build a book catalog REST API with FastAPI, including CRUD endpoints and request validation.",
+      "path": "assignments/fastapi-rest-apis",
+      "dueDate": "2026-10-15"
     }
   ]
 }
