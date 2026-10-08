@@ -65,6 +65,13 @@
       "description": "Build a book catalog REST API with FastAPI, including CRUD endpoints and request validation.",
       "path": "assignments/fastapi-rest-apis",
       "dueDate": "2026-10-15"
+    },
+    {
+      "id": "fastapi-sqlite-persistence",
+      "title": "Persisting FastAPI Data with SQLite",
+      "description": "Extend a FastAPI book catalog to persist CRUD data in SQLite across application restarts.",
+      "path": "assignments/fastapi-sqlite-persistence",
+      "dueDate": "2026-10-15"
     }
   ]
 }
